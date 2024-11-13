@@ -1,21 +1,17 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-// import { createHtmlPlugin } from 'vite-plugin-html';
-// https://vite.dev/config/
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+
 export default defineConfig({
   plugins: [
     react(),
-    // createHtmlPlugin({
-    //   inject: {
-    //     data: {
-    //       injectScript: `<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>`,
-          
-    //     },
-    //   },
-    // }),
   ],
+  resolve: {
+    alias: {
+      '@': path.resolve(__dirname, 'src'),
+    },
+  },
 });
-
-
-
-

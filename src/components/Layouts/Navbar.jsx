@@ -22,25 +22,46 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarCollapse">
                     <div className="navbar-nav ms-auto py-0">
                         <Link to="/"   className={`nav-item nav-link ${isActive('/') ? 'active' : ''}`}>Home</Link>
-                        <Link to="/about"  className={`nav-item nav-link ${isActive('/about') ? 'active' : ''}`} >About</Link>
-                        <Link to="/what-we-do"className={`nav-item nav-link ${isActive('/what-we-do') ? 'active' : ''}`}>What We Do</Link>
-                        <Link to="/where-we-work"className={`nav-item nav-link ${isActive('/where-we-work') ? 'active' : ''}`}>Where We Work</Link>
-                        <Link to="/projects"className={`nav-item nav-link ${isActive('/projects') ? 'active' : ''}`}>Projects</Link>
-                        <Link to="/insights"className={`nav-item nav-link ${isActive('/insights') ? 'active' : ''}`}>Insights</Link>
-                        {/* <div className="nav-item dropdown">
-                            <a href="#" className="nav-link" data-bs-toggle="dropdown">
-                                <span className="dropdown-toggle">Pages</span>
-                            </a>
+                        <div className="nav-item dropdown">
+                            <Link to="#"  className={`nav-item nav-link ${isActive('/about') ? 'active' : ''}`} data-bs-toggle="dropdown">
+                                <span className="dropdown-toggle">About</span>
+                            </Link>
                             <div className="dropdown-menu m-0">
-                                <a href="feature.html" className="dropdown-item">Our Features</a>
-                                <a href="team.html" className="dropdown-item">Our team</a>
-                                <a href="testimonial.html" className="dropdown-item">Testimonial</a>
-                                <a href="offer.html" className="dropdown-item">Our offer</a>
-                                <a href="FAQ.html" className="dropdown-item">FAQs</a>
-                                <a href="404.html" className="dropdown-item">404 Page</a>
+                                <Link to="/overview" className={`dropdown-item ${isActive('/overview') ? 'active' : ''}`}>Who We Overview</Link>
+                                <Link to="/teams" className={`dropdown-item ${isActive('/teams') ? 'active' : ''}`}>Our Teams</Link>
+                                <Link to="/certifications" className={`dropdown-item ${isActive('/certifications') ? 'active' : ''}`}>Certifications & Awards</Link>
+                                <Link to="/news" className={`dropdown-item ${isActive('/news') ? 'active' : ''}`}>News</Link>
+                                <Link to="/contact" className={`dropdown-item ${isActive('/contact') ? 'active' : ''}`}>Contact Us</Link>
                             </div>
                         </div>
-                        <a href="contact.html" className="nav-item nav-link">Contact Us</a> */}
+                        <div className="nav-item dropdown">
+                            <Link to="#"  className={`nav-item nav-link ${isActive('/about') ? 'active' : ''}`} data-bs-toggle="dropdown">
+                                <span className="dropdown-toggle">What We Do</span>
+                            </Link>
+                            <div className="dropdown-menu m-0">
+                                <Link to="/what-we-do/capabilities" className={`dropdown-item ${isActive('/what-we-do/capabilities') ? 'active' : ''}`}>Capabilités</Link>
+                                <Link to="/what-we-do/focus-areas" className={`dropdown-item ${isActive('/what-we-do/focus-areas') ? 'active' : ''}`}>Focus Areas</Link>
+                                <Link to="/what-we-do/tools" className={`dropdown-item ${isActive('/what-we-do/tools') ? 'active' : ''}`}>Tools</Link>
+                            </div>
+                        </div>
+                        <Link to="/where-we-work" className={`nav-item nav-link ${isActive('/where-we-work') ? 'active' : ''}`}>Where We Work</Link>
+                        <Link to="/projects" className={`nav-item nav-link ${isActive('/projects') ? 'active' : ''}`}>Projects</Link>
+                        {/* <Link to="/insights" className={`nav-item nav-link ${isActive('/insights') ? 'active' : ''}`}>Insights</Link> */}
+                        <div className="nav-item dropdown">
+                            <Link to="#"  className={`nav-item nav-link ${isActive('/insights') ? 'active' : ''}`} data-bs-toggle="dropdown">
+                                <span className="dropdown-toggle">Insights</span>
+                            </Link>
+                            <div className="dropdown-menu m-0">
+                                <Link to="/insights-search" className={`dropdown-item ${isActive('/insights-search') ? 'active' : ''}`}>Insights Search</Link>
+                                <Link to="/insights-events" className={`dropdown-item ${isActive('/insights-events') ? 'active' : ''}`}>Events</Link>
+                                <Link to="/insights-podcasts" className={`dropdown-item ${isActive('/insights-podcasts') ? 'active' : ''}`}>C-mer Podcasts</Link>
+                                <Link to="/insights-blogs" className={`dropdown-item ${isActive('/insights-blogs') ? 'active' : ''}`}>Perspectives Blog</Link>
+                                <Link to="/insights-publications" className={`dropdown-item ${isActive('/insights-publications') ? 'active' : ''}`}>Publications</Link>
+                                <Link to="/insights-spotlight" className={`dropdown-item ${isActive('/insights-spotlight') ? 'active' : ''}`}>Spotlight On</Link>
+                            </div>
+                        </div>
+                       
+                       
                     </div>
                 </div>
             </nav>

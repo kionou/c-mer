@@ -1,0 +1,49 @@
+article {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+
+.clearfix::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+.stackpile-horizontal .stack-cont-wrap {
+    padding-left: 0.625rem;
+    padding-top: 0;
+}
+.stack-cont-wrap {
+    padding: 1.5625rem 1.5625rem;
+}
+.stack-cont-wrap h2.stack-tile-title, .stack-cont-wrap .stack-tile-title.h2 {
+    font-family: "DM Sans";
+    font-weight: 700;
+    font-size: 1.625rem;
+    line-height: 2.125rem;
+    color: var(--bs-primary);
+    margin-bottom: 0.625rem;
+}
+.stack-cont-wrap .stack-tile-description {
+    font-size: 1rem;
+    line-height: 1.375rem;
+    font-style: normal;
+    font-weight: normal;
+    color: #000000;
+    margin-bottom: 0.9375rem;
+}
+.page-section p {
+    font-size: 1.125rem;
+    line-height: 1.625rem;
+}
+p.small-paras {
+    font-size: 0.625rem !important;
+}
+
+p.small-paras a {
+    font-size: 0.625rem;
+    font-weight: normal;
+}
+.stackpile-img{
+    width: 100%;
+}

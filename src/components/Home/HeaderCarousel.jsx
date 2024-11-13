@@ -208,15 +208,14 @@ function HeaderCarousel() {
               <div className="col-xl-7 animated fadeInLeft">
                 <div className="text-sm-center text-md-end">
                   <h4 className="text-primary text-uppercase fw-bold mb-4">
-                    Welcome To Stocker
+                  Unlock Your Financial Potential
                   </h4>
                   <h1 className="display-4 text-uppercase text-white mb-4">
-                    Invest your money with higher return
+                  Maximize returns with smart, strategic investments.
                   </h1>
                   <p className="mb-5 fs-5">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industrys
-                    standard dummy...
+                  Discover the power of informed investment choices that secure your future. 
+                  Our expertise guides you to make the best financial decisions for higher returns.
                   </p>
                   <div className="d-flex justify-content-center justify-content-md-end flex-shrink-0 mb-4">
                     <a
@@ -268,15 +267,14 @@ function HeaderCarousel() {
               <div className="col-12 animated fadeInUp">
                 <div className="text-center">
                   <h4 className="text-primary text-uppercase fw-bold mb-4">
-                    Welcome To Stocker
+                  Empowering Your Growth Journey
                   </h4>
                   <h1 className="display-4 text-uppercase text-white mb-4">
-                    Invest your money with higher return
+                  Invest today for a brighter tomorrow.
                   </h1>
                   <p className="mb-5 fs-5">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industrys
-                    standard dummy...
+                  We provide the tools, insights, and strategies to turn your financial goals into reality. 
+                  Join us on a path to success with higher returns on your investments.
                   </p>
                   <div className="d-flex justify-content-center flex-shrink-0 mb-4">
                     <a

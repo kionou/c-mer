@@ -1,0 +1,58 @@
+.page-section:first-child {
+    padding-top: 5rem;
+}
+.page-section {
+    padding: 2.5rem 0;
+}
+.listing-item {
+    text-decoration: none;
+    position: relative;
+    display: block;
+    margin: 0;
+    margin-bottom: 2.5rem;
+    padding: 0;
+}
+.listing-item .listing-image img {
+    width: 100%;
+}
+.listing-item.news-listing h2.listing-title, .listing-item.news-listing .listing-title.h2, .listing-item.blog-listing h2.listing-title, .listing-item.blog-listing .listing-title.h2, .listing-item.publications-listing h2.listing-title, .listing-item.publications-listing .listing-title.h2, .listing-item.podcast-listing h2.listing-title, .listing-item.podcast-listing .listing-title.h2 {
+    margin-left: 0.9375rem;
+}
+.listing-item h2.listing-title, .listing-item .listing-title.h2 {
+    font-size: 1.25rem;
+    font-family: "DM Sans";
+    font-weight: 700;
+    line-height: 1.75rem;
+    color: #001689;
+    margin-top: 1.25rem;
+}
+.listing-item .listing-meta {
+    margin-left: 0.9375rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+.listing-item .listing-meta .listing-meta-date {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    color: #001391;
+    text-transform: uppercase;
+}
+.listing-item .listing-description {
+    margin-left: 0.9375rem;
+    margin-top: 0.9375rem;
+    margin-right: 0.625rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    color: #000;
+}
+.listing-item .listing-description p {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    color: #000;
+}

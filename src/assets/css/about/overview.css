@@ -1,0 +1,75 @@
+.vision-list {
+    list-style: none;
+    margin-bottom: 2rem;
+    padding: 0;
+}
+.vision-list li {
+    padding-left: 0;
+}
+.legacy .vision-list .vision-item-inner {
+    padding: 1rem 0;
+}
+
+.vision-list .vision-item-inner {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+.legacy .vision-list .vision-item-inner {
+    padding: 1rem 0;
+}
+
+.vision-list .vision-item-inner {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+.vision-list .vision-image-wrap {
+    flex: 0 1 18.75rem;
+    display: flex;
+    align-items: center;
+}
+
+.vision-list .content-right .vision-text {
+    padding: 0 0 0 4rem;
+}
+.vision-list .vision-text {
+    flex: 0 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 46.75rem;
+    max-width: 100%;
+}
+.vision-list .vision-text p {
+    margin: .5rem 0 1rem;
+}
+#content .arrow-blue, #content .arrow-blue-back {
+    margin-bottom: .875rem;
+}
+
+.vision-list .vision-text a {
+    width: fit-content;
+}
+.arrow-blue, .arrow-blue-back {
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: var(--monument);
+    display: block;
+}
+
+.vision-list .content-left .vision-item-inner {
+    flex-direction: row-reverse;
+}
+
+.legacy .vision-list .vision-item-inner {
+    padding: 1rem 0;
+}
+.vision-list .vision-item-inner {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+.vision-list .content-left .vision-text {
+    padding: 0 4rem 0 0;
+}
