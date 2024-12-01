@@ -27,9 +27,8 @@ const Navbar = () => {
                                 <span className="dropdown-toggle">About</span>
                             </Link>
                             <div className="dropdown-menu m-0">
-                                <Link to="/overview" className={`dropdown-item ${isActive('/overview') ? 'active' : ''}`}>Who We Overview</Link>
-                                <Link to="/teams" className={`dropdown-item ${isActive('/teams') ? 'active' : ''}`}>Our Teams</Link>
-                                <Link to="/certifications" className={`dropdown-item ${isActive('/certifications') ? 'active' : ''}`}>Certifications & Awards</Link>
+                                <Link to="/who-are-we" className={`dropdown-item ${isActive('/who-are-we') ? 'active' : ''}`}>Who are we?</Link>
+                                <Link to="/teams" className={`dropdown-item ${isActive('/teams') ? 'active' : ''}`}>Our Team</Link>
                                 <Link to="/news" className={`dropdown-item ${isActive('/news') ? 'active' : ''}`}>News</Link>
                                 <Link to="/contact" className={`dropdown-item ${isActive('/contact') ? 'active' : ''}`}>Contact Us</Link>
                             </div>
@@ -39,7 +38,7 @@ const Navbar = () => {
                                 <span className="dropdown-toggle">What We Do</span>
                             </Link>
                             <div className="dropdown-menu m-0">
-                                <Link to="/what-we-do/capabilities" className={`dropdown-item ${isActive('/what-we-do/capabilities') ? 'active' : ''}`}>Capabilités</Link>
+                                <Link to="/what-we-do/capabilities" className={`dropdown-item ${isActive('/what-we-do/capabilities') ? 'active' : ''}`}>Capabilities</Link>
                                 <Link to="/what-we-do/focus-areas" className={`dropdown-item ${isActive('/what-we-do/focus-areas') ? 'active' : ''}`}>Focus Areas</Link>
                                 <Link to="/what-we-do/tools" className={`dropdown-item ${isActive('/what-we-do/tools') ? 'active' : ''}`}>Tools</Link>
                             </div>
@@ -60,6 +59,8 @@ const Navbar = () => {
                                 <Link to="/insights-spotlight" className={`dropdown-item ${isActive('/insights-spotlight') ? 'active' : ''}`}>Spotlight On</Link>
                             </div>
                         </div>
+                        <Link to="/search" className={`nav-item nav-link ${isActive('/search') ? 'active' : ''}`}>Search</Link>
+
                        
                        
                     </div>

@@ -5,10 +5,10 @@ const OverviewDefault = () => {
   return (
     <>
       <HeaderOther
-        titre="Overview"
+        titre="Who are we ?"
         home="Home"
         view="Pages"
-        lien="Overview"
+        lien="Who are we ?"
         imageUrl="/assets/img/carousel-1.jpg"
       />
       <div className="container-fluid service py-3" style={{backgroundColor:'#fff'}}>

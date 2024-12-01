@@ -30,6 +30,10 @@ import SpotlightDefault from './views/Insights/spotlight';
 import ScrollToTop from './lib/scrollTop';
 
 
+import SearchDefaults from './views/search/search';
+
+
+
 
 
 function App() {
@@ -46,7 +50,7 @@ function App() {
           <Route path="/certifications" element={<CertificationsDefault />} />
           <Route path="/contact" element={<ContactDefault />} />
           <Route path="/news" element={<NewsDefault />} />
-          <Route path="/overview" element={<OverviewDefault />} />
+          <Route path="/who-are-we" element={<OverviewDefault />} />
 
           <Route path="/what-we-do" element={<WeDoDefault />} />
           <Route path="/what-we-do/capabilities" element={<CapabilitiesDefault />} />
@@ -64,6 +68,7 @@ function App() {
 
           <Route path="/projects" element={<ProjectsDefault />} />
           <Route path="/where-we-work" element={<WeWorkDefault />} />
+          <Route path="/search" element={<SearchDefaults />} />
         
           <Route path="*" element={
             <div>

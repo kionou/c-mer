@@ -5,10 +5,10 @@ const CapabilitiesDefault = () => {
   return (
     <>
       <HeaderOther
-        titre="Capabilités"
+        titre="Capabilities"
         home="Home"
         view="Pages"
-        lien="Capabilités"
+        lien="Capabilities"
         imageUrl="/assets/img/carousel-1.jpg"
       />
       <div className="container-fluid feature py-3">
