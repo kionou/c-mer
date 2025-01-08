@@ -61,10 +61,12 @@ window.addEventListener('scroll', function () {
                             <div>
                                 <h4 className="text-white bg-primary p-2">About Us</h4>
                                 <h1 className="display-6 mb-4">Welcome to the Centre for Monitoring, Evaluation, and Research</h1>
-                                <p className="mb-4">The Centre for Monitoring, Evaluation & Research (CMER) is dedicated to improving development
-                                 programs through evidence-based analysis and rigorous impact monitoring. 
-                                 We collaborate with various partners to assess the effectiveness and impact
-                                  of projects in key sectors such as health, education, and economic development
+                                <p className="mb-4">
+                                C-MER | Centre for Monitoring, Evaluation and Research is a research consulting firm
+                                dedicated to providing cutting-edge research, monitoring, and evaluation services. Our work
+                                revolves around delivering both quantitative and qualitative research, primarily focusing on
+                                monitoring, evaluation, and research. We employ a combination of summative and formative
+                                evaluations to enhance our services
                                 </p>
                               
                             </div>
@@ -76,52 +78,53 @@ window.addEventListener('scroll', function () {
                                 <div className="accordion-item rounded-top">
                                     <h2 className="accordion-header" id="flush-headingOne">
                                         <button className="accordion-button collapsed rounded-top" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                        Data Analysis & Interpretation
+                                        Social Development
                                         </button>
                                     </h2>
                                     <div id="flush-collapseOne" className="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushSection">
                                         <div className="accordion-body"> 
 
-                                        Using advanced statistical tools and methodologies to 
-                                        transform raw data into actionable insights that guide strategic decisions.
+                                        Monitor the implementation of projects and programs on social issues
+                                        such as poverty and gender equity to inform policy and practice.
                                         </div>
                                     </div>
                                 </div>
                                 <div className="accordion-item">
                                     <h2 className="accordion-header" id="flush-headingTwo">
                                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                        Program Design & Optimization
+                                        Socio-economic Growth and Development
                                         </button>
                                     </h2>
                                     <div id="flush-collapseTwo" className="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushSection">
                                         <div className="accordion-body">
-                                        Developing and refining program models to maximize impact and efficiency, ensuring resources are utilized effectively.
+                                        Assess economic policies, and monitoring
+                                        programs to support socio-economic growth and development.
                                         </div>
                                     </div>
                                 </div>
                                 <div className="accordion-item">
                                     <h2 className="accordion-header" id="flush-headingThree">
                                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                        Community Development & Empowerment
+                                        Policy
                                         </button>
                                     </h2>
                                     <div id="flush-collapseThree" className="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushSection">
                                         <div className="accordion-body"> 
-                                        Focusing on programs that promote sustainable growth, enhance livelihoods,
-                                         and empower communities through targeted interventions.
+                                        Monitor and evaluating policy implementations to improve transparency,
+                                        accountability, and efcacy.
                                         </div>
                                     </div>
                                 </div>
                                 <div className="accordion-item">
                                     <h2 className="accordion-header" id="flush-headingFour">
                                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                                        Public Health & Well-being
+                                        Training
                                         </button>
                                     </h2>
                                     <div id="flush-collapseFour" className="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushSection">
                                         <div className="accordion-body">   
-                                        Implementing initiatives aimed at improving health outcomes,
-                                         addressing critical health challenges, and promoting wellness.
+                                        Provide bespoke trainings on statistical software/packages such as STATA, SPSS,
+                                        Excel, MS project.
 
 
                                         </div>
@@ -130,24 +133,26 @@ window.addEventListener('scroll', function () {
                                 <div className="accordion-item">
                                     <h2 className="accordion-header" id="flush-headingFive">
                                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-                                        Evaluation & Reporting Systems
+                                        Evaluation Packages
                                         </button>
                                     </h2>
                                     <div id="flush-collapseFive" className="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushSection">
                                         <div className="accordion-body"> 
-                                        Building robust reporting systems that provide transparent, detailed evaluations for continuous improvement and accountability
+                                        Developing monitoring and evaluation plans, indicators, monitoring
+                                        and evaluation systems and validation tools.
                                         </div>
                                     </div>
                                 </div>
                                 <div className="accordion-item rounded-bottom">
                                     <h2 className="accordion-header" id="flush-headingSix">
                                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
-                                        Training & Capacity Building Programs
+                                        Data Collection Packages
                                         </button>
                                     </h2>
                                     <div id="flush-collapseSix" className="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushSection">
                                         <div className="accordion-body"> 
-                                        Providing training sessions and workshops to strengthen the monitoring and evaluation capacities of partner organizations.
+                                        Develop questionnaires and research protocol, provide expert
+                                        advice on data collection systems, technical backstop.
                                         
                                         </div>
                                     </div>

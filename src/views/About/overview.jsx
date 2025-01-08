@@ -15,7 +15,7 @@ const OverviewDefault = () => {
        <div className="container ">
        <div className="text-center mx-auto  wow fadeInUp" data-wow-delay="0.2s" style={{maxWidth: '800px'}}>
                         <h4  className="text-primary py-2" style={{border:'1px solid var(--bs-primary)'}}>Our Vision and Goals</h4>
-                        <h1 className="display-5 mb-4">News provided best offer</h1>
+                      
             
                     </div>
        </div>
@@ -23,12 +23,11 @@ const OverviewDefault = () => {
       <section className="our-vision-and-goals" style={{ padding: "0 20px" }}>
       
       <p className="mb-0">
-C-MER (Center for Market and Economic Research) is an organization
- dedicated to market analysis and economic research. Our mission
-  is to provide cutting-edge insights and analyses to help businesses,
-   governments, and investors make informed decisions. Founded by experts
-    in economics and finance, C-MER is committed to delivering unique 
-    perspectives and innovative solutions.
+      C-MER | Centre for Monitoring, Evaluation and Research is a research consulting firm
+ dedicated to providing cutting-edge research, monitoring, and evaluation services. Our work
+ revolves around delivering both quantitative and qualitative research, primarily focusing on
+ monitoring, evaluation, and research. We employ a combination of summative and formative
+ evaluations to enhance our services.
 
   </p>
 
@@ -45,16 +44,12 @@ C-MER (Center for Market and Economic Research) is an organization
               <div className="vision-text">
                 <h3>Mission</h3>
                 <p>
-                Our mission is to analyze, understand, and share market dynamics to 
-                foster growth and economic resilience worldwide. We strive to make financial 
-                information accessible 
-                and understandable for everyone, promoting informed and responsible decision-making.
+                C-MER’s mission is to support partners in effectively and successfully solving social problems
+                to improve the well-being of the people they aim to benefit globally. Our expertise is dedicated
+                to creating development impact in various sectors, including health, agriculture, food security,
+                governance, education, livelihoods, youth, women, and environmental management.
                 </p>
-                <a
-                  href="#"
-                  className="arrow-blue">
-                  Learn <span className="last-word">more</span>
-                </a>
+            
               </div>
             </div>
           </li>
@@ -72,15 +67,11 @@ C-MER (Center for Market and Economic Research) is an organization
                 Vision
                 </h3>
                 <p>
-                We aim to become a global leader in market research and analysis,
-                 offering data-driven solutions and encouraging well-informed decisions
-                  that positively impact the global economy.
+                C-MER’s Vision is to become a leading, dynamic socio-economic development consultancy
+            firm that contributes to creating a better world by strengthening transformative processes for
+            community development.
                 </p>
-                <a
-                  href="#"
-                  className="arrow-blue">
-                  Learn <span className="last-word">more</span>
-                </a>
+             
               </div>
             </div>
           </li>
@@ -104,25 +95,23 @@ C-MER (Center for Market and Economic Research) is an organization
                    businesses, governments, and individuals make
                  informed decisions. Heres a look back at some of our key milestones.
                 </p>
-                <a
-                  href="#"
-                  className="arrow-blue">
-                  Learn <span className="last-word">more</span>
-                </a>
+               
               </div>
             </div>
           </li>
         </ul>
 
         <div className="journey-wrapper">
-          <h3 id="rand-is-on-a-journey-" style={{textAlign:'center'}}>Our Journey</h3>
+          <h3 id="rand-is-on-a-journey-" style={{textAlign:'center'}}> Why Choose Us</h3>
 
           <p>
-          At C-MER, our journey began with a bold mission: to provide clear, accurate,
-           and insightful research to help shape better decisions. Since our founding
-            in [founding year], we have been on a continuous journey, exploring innovative
-             approaches to understanding complex markets, industries, and economic trends.
-           Our commitment to excellence has been the cornerstone of our growth and success.
+          We employ a combination of approaches including participatory/collaborative evaluation,
+          utilization-focused evaluation, values-reective and engaged evaluation, as well as realist
+          evaluation. This comprehensive methodology helps our clients gain valuable insights into their
+          work and supports them in improving their programs and projects. Our comprehensive
+          approach ensures that we provide valuable insights and practical recommendations to help our
+          clients improve their programs and projects. Our client portfolio comprises Ministries, 
+          nongovernmental organizations, public agencies, universities, and foundations.
           </p>
         </div>
       </section>

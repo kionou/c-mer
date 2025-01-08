@@ -31,12 +31,12 @@ const Footer = () => {
                             </div>
                             <div className="d-flex align-items-center  ms-3">
                                 <i className="fas fa-envelope text-primary me-1"></i>
-                                <p className="text-white mb-0">support@c-mer.org</p>
+                                <p className="text-white mb-0">cmer.consulting@gmail.com</p>
                             </div>
                             <div className="d-flex align-items-center  ms-3">
                                  <i className="bi bi-telephone text-primary me-1"></i>
                              
-                                <p className="text-white mb-0">(+000) 000 0000</p>
+                                <p className="text-white mb-0">(+220) 9276737 | 4028960</p>
                             </div>
                         
                          
